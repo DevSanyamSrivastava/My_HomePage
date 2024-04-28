@@ -118,16 +118,13 @@
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
-    /* Optional: Add a semi-transparent background to the caption */
     padding: 20px;
 }
 
 .dummy-text-container {
     display: flex;
     align-items: center;
-    /* Align items to the start (top) */
     margin-left: 10px;
-    /* Adjust margin as needed */
     height: 40vh;
     width: 40%;
 }
@@ -138,7 +135,6 @@
     width: 30%;
     flex-grow: 1;
     text-align: left;
-    /* Align text to the left */
 }
 
 .d-block {
@@ -152,9 +148,6 @@
 
 
 
-
-
-/* Style for full-screen image */
 .fullscreen-bg {
     overflow: visible;
     position: relative;
@@ -172,7 +165,6 @@
     left: 0;
 }
 
-/* Style for text overlay */
 .overlay-text {
     position: absolute;
     top: 50%;
@@ -196,30 +188,28 @@
 }
 
 
-/* Centered div with margin from top */
 .add {
 text-align: center;
-margin-top: 350px; /* Adjust this value as needed */
-background-color: #f8f9fa; /* Background color for the div */
-padding: 20px; /* Add padding for better readability */
-max-width: 600px; /* Set maximum width for responsiveness */
-margin-left: auto; /* Center horizontally */
-margin-right: auto; /* Center horizontally */
-border-radius: 10px; /* Rounded corners */
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+margin-top: 350px; 
+background-color: #f8f9fa; 
+padding: 20px; 
+max-width: 600px; 
+margin-left: auto; 
+margin-right: auto; 
+ border-radius: 10px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Style for the heading */
+
 .add h3 {
-color: #007bff; /* Blue color for the heading */
-margin-bottom: 20px; /* Add margin below the heading */
+color: #007bff; 
+margin-bottom: 20px; 
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
 .add {
-margin-top: 20px; /* Adjust margin for smaller screens */
-}
+margin-top: 20px;}
 }
 
 /* Last slider code  */
